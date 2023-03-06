@@ -1,0 +1,48 @@
+body{
+    background-color: #f3eae3;
+}
+
+.content-container{
+    width: 506px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.photo-container{
+    display: flex;
+}
+
+.text-container{
+    padding: 18px 21px;
+}
+
+.new-price{
+    font-size: 25px;
+    color: #3d8168;
+}
+
+.old-price{
+    display: inline;
+    vertical-align: text-bottom;
+    text-decoration:line-through;
+    position: relative;
+    left: 15px;
+}
+
+.cart-btn{
+    width: 90%;
+    padding: 10px;
+    border:#3d8168;
+    border-radius: 7px;
+    color: white;
+    background-color: #3d8168;
+
+}
+
+#cart_img{
+    margin-right: 4px;
+}
